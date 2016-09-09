@@ -28,7 +28,7 @@ global.roles = role;
 module.exports.loop = function () {
     
     //cleanup memory!
-    if(Game.time%100 < 1)
+    if(Game.time%100 == 1)
     {
         for(var i in Memory.creeps) 
         {
